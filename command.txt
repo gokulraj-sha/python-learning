@@ -1,0 +1,59 @@
+pip install -r (file_name.txt) :- to insatll the packages all in one place using a txt file
+python3 -m venu (name) :- To create python envirnment
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+****************************************************************************************
+PostgreSQL
+****************************************************************************************
+#To start postgresql
+sudo -u postgres /Library/PostgreSQL/18/bin/pg_ctl -D /Library/PostgreSQL/18/data start
+
+#To verify postgresql (gives "9760    0    postgresql-18" when started and gives not output when stopped)
+sudo launchctl list | grep -i postgres
+
+#To stop postgresql
+sudo -u postgres /Library/PostgreSQL/18/bin/pg_ctl -D /Library/PostgreSQL/18/data stop
+---------------------------------------------------------------------------------------
+
+
+
+****************************************************************************************
+The Python envirnment was not found
+****************************************************************************************
+
+python3 -m venv asi-venv :- create new envirnment
+cd ~/Documents/VS/Pandas/autosales_insights :- Change path 
+source asi-venv/bin/activate :- activate envirnment
+deactivate :- deactivate envirnment
+rm -rf asi-venv :- Delete the envirnment
+ls -l asi-venv/bin/python:- Check the environment exists 
+
+
+
+****************************************************************************************
+VS Code can't find my venv:
+****************************************************************************************
+
+1. Check venv:
+   ls -l asi-venv/bin/python
+
+2. Test venv:
+   ./asi-venv/bin/python --version
+
+3. Check path:
+   ./asi-venv/bin/python -c "import sys; print(sys.executable)"
+
+4. If notebook can't find it:
+   ./asi-venv/bin/python -m ipykernel install --user --name asi-venv --display-name "Python (asi-venv)"
+
+5. If venv was moved/renamed and path is broken:
+   recreate the venv.
+---------------------------------------------------------------------------------------
