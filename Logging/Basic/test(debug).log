@@ -1,0 +1,12 @@
+DEBUG:root:Add : 10 - 5 = 15
+DEBUG:root:Sub : 10 - 5 = 5
+DEBUG:root:Multipication : 10 - 5 = 50
+DEBUG:root:Divison : 10 - 5 = 2.0
+2026-10-08 08:11:19,799:DEBUG:Add : 10 - 5 = 15
+2026-10-08 08:11:19,800:DEBUG:Sub : 10 - 5 = 5
+2026-10-08 08:11:19,800:DEBUG:Multipication : 10 - 5 = 50
+2026-10-08 08:11:19,800:DEBUG:Divison : 10 - 5 = 2.0
+2026-10-08 08:12:49,340:DEBUG:Add : 10 - 5 = 15
+2026-10-08 08:12:49,341:DEBUG:Sub : 10 - 5 = 5
+2026-10-08 08:12:49,341:DEBUG:Multipication : 10 - 5 = 50
+2026-10-08 08:12:49,342:DEBUG:Divison : 10 - 5 = 2.0

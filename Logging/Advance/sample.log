@@ -1,0 +1,20 @@
+2026-10-08 09:32:19,744:ERROR:Tried to divede by zero
+2026-10-08 09:33:11,003:ERROR:Tried to divede by zero
+2026-10-08 09:33:29,821:ERROR:Tried to divede by zero
+Traceback (most recent call last):
+  File "/Users/gokulraj/Documents/VS/Python/Logging/Advance/log-sample.py", line 29, in devision
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
+2026-10-08 09:37:54,549:ERROR:Tried to divede by zero
+Traceback (most recent call last):
+  File "/Users/gokulraj/Documents/VS/Python/Logging/Advance/log-sample.py", line 30, in devision
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
+2026-10-08 09:41:00,487:ERROR:Tried to divede by zero
+Traceback (most recent call last):
+  File "/Users/gokulraj/Documents/VS/Python/Logging/Advance/log-sample.py", line 31, in devision
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
