@@ -1,0 +1,6 @@
+Log Started
+Invalid email
+Log Ended
+Log Started
+Data Processing{'Username': 'gokulraj', 'Domain': 'gmail.com'}
+Log Ended
