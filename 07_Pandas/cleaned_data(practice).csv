@@ -1,0 +1,12 @@
+sale_id,product,region,quantity,price,sale_date,commission_pct,sale_status,revenue,commission_amount
+101,Laptop,NORTH,2,50000,2026-01-05,0.05,Completed,100000,5000
+102,Mouse,SOUTH,5,500,2026-01-06,0.1,Completed,2500,250
+103,Keyboard,EAST,3,1500,2026-01-07,0.06,Pending,4500,270
+104,Laptop,NORTH,1,50000,2026-01-08,0.05,Completed,50000,2500
+105,Monitor,WEST,2,12000,2026-01-09,0.08,Completed,24000,1920
+106,Mouse,SOUTH,0,500,2026-01-10,0.1,Cancelled,0,0
+107,Keyboard,EAST,4,1500,2026-01-11,0.06,Completed,6000,360
+108,Laptop,NORTH,1,50000,2026-01-12,0.05,Completed,50000,2500
+110,Monitor,WEST,2,12000,2026-01-13,0.06,Pending,24000,1440
+111,Mouse,UNKNOWN,3,500,2026-01-14,0.1,Completed,1500,150
+112,Keyboard,EAST,2,1500,2026-01-15,0.06,Completed,3000,180

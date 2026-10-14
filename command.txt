@@ -1,8 +1,9 @@
 pip install -r (file_name.txt) :- to insatll the packages all in one place using a txt file
-python3 -m venu (name) :- To create python envirnment
+python3 -m venva (name) :- To create python envirnment
 
 
-
+python -m pip install --upgrade pip                  |
+python -m pip install jupyter ipykernel pandas       | to insatll juputer 
 
 
 
